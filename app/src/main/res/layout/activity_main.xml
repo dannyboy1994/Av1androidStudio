@@ -33,6 +33,7 @@
         android:id="@+id/spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="@string/setor"
         app:layout_constraintBottom_toTopOf="@+id/acessarSetor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

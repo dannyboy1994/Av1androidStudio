@@ -7,4 +7,5 @@
     <string name="cadastrar">Cadastrar</string>
     <string name="item">Item</string>
     <string name="setor">Setor</string>
+    <string name="listar_itens">Listar itens</string>
 </resources>
