@@ -18,10 +18,9 @@
         app:layout_constraintVertical_bias="0.123" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/acessarSetor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="acessarSetor"
         android:text="@string/acesso"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,22 +33,21 @@
         android:id="@+id/spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/acessarSetor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/cadastrarItens"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="cadastrarItem"
         android:text="@string/cadastrar_item"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/acessarSetor"
         app:layout_constraintVertical_bias="0.202" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

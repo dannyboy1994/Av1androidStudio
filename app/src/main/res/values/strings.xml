@@ -4,4 +4,7 @@
     <string name="acesso">Acessar setor</string>
     <string name="cadastrar_item">Cadastrar Item</string>
     <string name="lerCodigo">Ler código</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="item">Item</string>
+    <string name="setor">Setor</string>
 </resources>
