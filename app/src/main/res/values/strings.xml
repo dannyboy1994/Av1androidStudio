@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Avaliacao 1</string>
+    <string name="selecione">Selecione o setor</string>
+    <string name="acesso">Acessar setor</string>
+    <string name="cadastrar_item">Cadastrar Item</string>
+    <string name="lerCodigo">Ler código</string>
+</resources>
