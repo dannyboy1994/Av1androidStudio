@@ -8,4 +8,7 @@
     <string name="item">Item</string>
     <string name="setor">Setor</string>
     <string name="listar_itens">Listar itens</string>
+    <string name="voltar">Voltar</string>
+    <string name="codigoitem">codigoItem</string>
+    <string name="limpar">Limpar</string>
 </resources>
