@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     Button cadastro;
     Button acessoSetor;
 
-    private SQLiteDatabase codigos;
+    //private SQLiteDatabase codigos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         //Criação da tabela para armazenar os dados dos itens
         //Banco criado na classe conexão
         //codigos = this.openOrCreateDatabase("codigos", Context.MODE_PRIVATE, null);
-        codigos.execSQL("CREATE TABLE if not exists objetos (id_item integer primary key autoincrement, item varchar(50), code INTEGER, setor varchar(30))");
+        //codigos.execSQL("CREATE TABLE if not exists objetos (id_item integer primary key autoincrement, item varchar(50), code INTEGER, setor varchar(30))");
         //--------------------------------------------------------------------------------------
         //
         acessoSetor = (Button) findViewById(R.id.acessarSetor);
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, lerCodigos.class);
         startActivity(intent);
     }
-
+/*  Função anterior para carregar tabela (provavelmente será descontinuada)
     public void carregarTabela() {
         Cursor c = codigos.rawQuery("SELECT id_item, item, code, setor FROM objetos;", new String[]{});
 
@@ -65,6 +65,5 @@ public class MainActivity extends AppCompatActivity {
             TextView textView = new TextView(this);
             textView.setText(c.getString(1) + ", " + c.getString(2) + "," + c.getString(3));
             linearLayout.addView(textView);
-        }
-    }
+        }*/
 }
