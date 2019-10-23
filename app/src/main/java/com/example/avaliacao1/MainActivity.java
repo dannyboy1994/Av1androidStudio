@@ -25,9 +25,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Criação da tabela para armazenar os dados dos itens
-        codigos = this.openOrCreateDatabase("codigos", Context.MODE_PRIVATE, null);
+        //Banco criado na classe conexão
+        //codigos = this.openOrCreateDatabase("codigos", Context.MODE_PRIVATE, null);
         codigos.execSQL("CREATE TABLE if not exists objetos (id_item integer primary key autoincrement, item varchar(50), code INTEGER, setor varchar(30))");
-
+        //--------------------------------------------------------------------------------------
+        //
         acessoSetor = (Button) findViewById(R.id.acessarSetor);
         acessoSetor.setOnClickListener(new View.OnClickListener() {
             @Override
