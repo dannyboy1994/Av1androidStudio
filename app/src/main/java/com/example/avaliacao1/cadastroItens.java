@@ -34,4 +34,7 @@ public class cadastroItens extends AppCompatActivity {
         long id = dao.inserirItem(novoItem);
         Toast.makeText(this, "Item inserido : " + id, Toast.LENGTH_SHORT).show();
     }
+
+    public void limparDados() {
+    }
 }

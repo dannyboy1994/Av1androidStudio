@@ -30,4 +30,8 @@ public class Item implements Serializable {
     public void setCodigo(String codigo) {
         this.codigo = codigo;
     }
+
+    public String toString() {
+        return item;
+    }
 }
