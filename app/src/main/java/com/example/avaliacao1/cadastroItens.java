@@ -35,6 +35,6 @@ public class cadastroItens extends AppCompatActivity {
         Toast.makeText(this, "Item inserido : " + id, Toast.LENGTH_SHORT).show();
     }
 
-    public void limparDados() {
-    }
+    /*public void limparDados() {
+    }*/
 }
