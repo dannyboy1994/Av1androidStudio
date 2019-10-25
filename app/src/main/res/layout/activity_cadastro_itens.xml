@@ -41,6 +41,7 @@
         android:ems="10"
         android:inputType="number"
         android:hint="@string/lerCodigo"
+        android:onClick="escaner"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.08"
         app:layout_constraintStart_toStartOf="parent"

@@ -12,6 +12,8 @@ import android.widget.ListView;
 import java.util.ArrayList;
 import java.util.List;
 
+import me.dm7.barcodescanner.zxing.ZXingScannerView;
+
 public class lerCodigos extends AppCompatActivity {
 
     Button listar;
@@ -22,6 +24,7 @@ public class lerCodigos extends AppCompatActivity {
     private ItemDAO dao;
     private List<Item> itens;
     private List<Item> itensFiltrados = new ArrayList<>();
+    private ZXingScannerView scanear;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
