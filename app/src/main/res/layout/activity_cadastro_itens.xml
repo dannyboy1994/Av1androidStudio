@@ -13,44 +13,48 @@
         android:ems="10"
         android:hint="@string/item"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/editSetor"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintHorizontal_bias="0.161"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.104" />
+        app:layout_constraintVertical_bias="0.917" />
 
     <EditText
         android:id="@+id/editSetor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="@string/setor"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintHorizontal_bias="0.161"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.188" />
+        app:layout_constraintVertical_bias="0.902" />
 
     <EditText
         android:id="@+id/editCodigo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
         android:ems="10"
-        android:inputType="number"
         android:hint="@string/lerCodigo"
+        android:inputType="number"
         android:onClick="escaner"
+        app:layout_constraintBottom_toTopOf="@+id/editItem"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editSetor"
-        app:layout_constraintVertical_bias="0.043" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.87" />
 
     <LinearLayout
-        android:layout_width="406dp"
-        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_width="408dp"
+        android:layout_height="260dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -61,7 +65,7 @@
 
         <Button
             android:id="@+id/cadastrar"
-            android:layout_width="209dp"
+            android:layout_width="145dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="200dp"
             android:onClick="cadastrar"
@@ -69,10 +73,19 @@
             tools:ignore="ButtonStyle" />
 
         <Button
-            android:id="@+id/limpar"
-            android:layout_width="0dp"
+            android:id="@+id/voltar2"
+            android:layout_width="102dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:text="@string/voltar"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/limpar"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="limparDados"
             android:text="@string/limpar"
             tools:ignore="ButtonStyle" />
     </LinearLayout>

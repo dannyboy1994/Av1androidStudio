@@ -5,10 +5,11 @@
     <string name="cadastrar_item">Cadastrar Item</string>
     <string name="lerCodigo">Ler código</string>
     <string name="cadastrar">Cadastrar</string>
-    <string name="item">Item</string>
+    <string name="item">Item a cadastrar</string>
     <string name="setor">Setor</string>
     <string name="listar_itens">Listar itens</string>
     <string name="voltar">Voltar</string>
     <string name="codigoitem">codigoItem</string>
     <string name="limpar">Limpar</string>
+    <string name="consultar">consultar</string>
 </resources>
